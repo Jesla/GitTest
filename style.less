@@ -1,4 +1,4 @@
-@primaryBlue: #0e10b2;
+@import "variables.less";
 
 h1 {
     color:red;
@@ -6,9 +6,33 @@ h1 {
 h2 {
     color: green;
 }
+h3 {
+    color: @primaryBlue
+}
+.important-block {
+    width: @width;
+    height: @height;
+    background-color: red;
+        p {
+            color: white;
+        }
+}
 p {
     color: @primaryBlue
 }
-h3 {
-    color: @primaryBlue
+
+ul#some-id.some-class {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+        color: purple;
+        font-weight: : bold;
+    }
+}
+.event-information {
+    img {
+        border: 1px solid green;
+    }
 }

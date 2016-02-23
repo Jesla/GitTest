@@ -4,9 +4,17 @@ h1 {
 h2 {
   color: green;
 }
-p {
+h3 {
   color: #0e10b2;
 }
-h3 {
+.important-block {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+.important-block p {
+  color: white;
+}
+p {
   color: #0e10b2;
 }
